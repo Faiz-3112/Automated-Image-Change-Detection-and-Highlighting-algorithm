@@ -4,7 +4,7 @@ __pycache__/
 
 # Virtual environment
 .venv/
-
+venv
 # System/IDE files
 .vscode/
 .DS_Store
