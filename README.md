@@ -37,8 +37,8 @@ This project provides an automated solution for detecting and highlighting signi
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repo-url>
-cd <project-directory>
+git clone [<your-repo-url>](https://github.com/Faiz-3112/Automated-Image-Change-Detection-and-Highlighting-algorithm.git)
+cd "Automated-Image-Change-Detection-and-Highlighting-algorithm.git"
 ```
 
 ### 2. Set Up the Environment
@@ -56,16 +56,16 @@ pip install -r requirements.txt
 
 ### 4. Run the Script
 ```bash
-python task_2_code.py
+python "Automated Image Change Detection and Highlighting algorithm.py"
 ```
 
 ### 5. View Results
-- Output images with highlighted changes will be saved in the `task_2_output` directory.
+- Output images with highlighted changes will be saved in the `output` directory.
 
 ---
 
 ## Configuration
-You can fine-tune detection sensitivity and noise filtering by editing these parameters in `task_2_code.py`:
+You can fine-tune detection sensitivity and noise filtering by editing these parameters in `Automated Image Change Detection and Highlighting algorithm.py`:
 - `threshold_val`: Pixel intensity difference threshold (default: 30)
 - `min_size`: Minimum area (in pixels) for a region to be considered significant (default: 100)
 
