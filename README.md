@@ -37,7 +37,7 @@ This project provides an automated solution for detecting and highlighting signi
 
 ### 1. Clone the Repository
 ```bash
-git clone [<your-repo-url>](https://github.com/Faiz-3112/Automated-Image-Change-Detection-and-Highlighting-algorithm.git)
+git clone https://github.com/Faiz-3112/Automated-Image-Change-Detection-and-Highlighting-algorithm.git
 cd "Automated-Image-Change-Detection-and-Highlighting-algorithm.git"
 ```
 
