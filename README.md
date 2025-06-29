@@ -17,7 +17,8 @@ This project provides an automated solution for detecting and highlighting signi
 
 ## How It Works
 1. **Input Preparation:**  
-   Place your "before" images (e.g., `image.jpg`) and corresponding "after" images (e.g., `image~2.jpg`) in the `input-images` directory.
+   Place your "before" images (e.g., `1.jpg`) and corresponding "after" images (e.g., `1~2.jpg`) in the `input-images` directory.
+   - **Note:** The script expects pairs like `N.jpg` (before) and `N~2.jpg` (after) for each image, where N is a number or identifier.
 
 2. **Processing Logic:**  
    - Compares each "before" and "after" image pair.
@@ -28,7 +29,7 @@ This project provides an automated solution for detecting and highlighting signi
    - Draws red bounding boxes around significant regions on the "after" image.
 
 3. **Output:**  
-   - Saves the original "before" image and the marked "after" image (with bounding boxes) in the `task_2_output` directory.
+   - Saves the original "before" image and the marked "after" image (with bounding boxes) in the `output` directory.
    - Prints a summary for each processed image.
 
 ---
@@ -38,7 +39,7 @@ This project provides an automated solution for detecting and highlighting signi
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/Faiz-3112/Automated-Image-Change-Detection-and-Highlighting-algorithm.git
-cd "Automated-Image-Change-Detection-and-Highlighting-algorithm.git"
+cd "Automated-Image-Change-Detection-and-Highlighting-algorithm"
 ```
 
 ### 2. Set Up the Environment
@@ -50,9 +51,10 @@ pip install -r requirements.txt
 
 ### 3. Prepare Input Images
 - Place your "before" and "after" image pairs in the `input-images` folder.
-- Naming convention:  
-  - Before: `image.jpg`  
-  - After:  `image~2.jpg`
+- Naming convention:
+  - Before: `N.jpg`  
+  - After:  `N~2.jpg`
+- Example: `1.jpg` (before), `1~2.jpg` (after)
 
 ### 4. Run the Script
 ```bash
@@ -61,6 +63,7 @@ python "Automated Image Change Detection and Highlighting algorithm.py"
 
 ### 5. View Results
 - Output images with highlighted changes will be saved in the `output` directory.
+- For each pair, you will find both the original and the marked (with bounding boxes) images.
 
 ---
 
@@ -89,6 +92,13 @@ Install all dependencies using:
 ```bash
 pip install -r requirements.txt
 ```
+
+---
+
+## Recent Changes
+- **File/Folder Naming:** Output is now saved in the `output` directory. Input images should be placed in `input-images`.
+- **Image Pairing:** The script expects pairs like `N.jpg` and `N~2.jpg` for each image.
+- **Updated Instructions:** All steps and paths have been revised for clarity and accuracy.
 
 ---
 
